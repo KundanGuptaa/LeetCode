@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/KundanGuptaa/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/KundanGuptaa/LeetCode/tree/master/0014-longest-common-prefix) |
 | [1572-matrix-diagonal-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 ## Matrix
 |  |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/KundanGuptaa/LeetCode/tree/master/0006-zigzag-conversion) |
+| [0014-longest-common-prefix](https://github.com/KundanGuptaa/LeetCode/tree/master/0014-longest-common-prefix) |
 ## Linked List
 |  |
 | ------- |
@@ -36,4 +38,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/KundanGuptaa/LeetCode/tree/master/0002-add-two-numbers) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/KundanGuptaa/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
