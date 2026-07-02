@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0006-zigzag-conversion](https://github.com/KundanGuptaa/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0014-longest-common-prefix](https://github.com/KundanGuptaa/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 ## Linked List
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/KundanGuptaa/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 ## Tree
 |  |
 | ------- |
@@ -74,4 +76,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/KundanGuptaa/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
