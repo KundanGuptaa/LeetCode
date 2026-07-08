@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/KundanGuptaa/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/KundanGuptaa/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/KundanGuptaa/LeetCode/tree/master/0035-search-insert-position) |
+| [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [1572-matrix-diagonal-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 ## Matrix
 |  |
@@ -93,5 +94,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0567-permutation-in-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0567-permutation-in-string) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
