@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/KundanGuptaa/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/KundanGuptaa/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/KundanGuptaa/LeetCode/tree/master/0035-search-insert-position) |
+| [0084-largest-rectangle-in-histogram](https://github.com/KundanGuptaa/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1572-matrix-diagonal-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/1572-matrix-diagonal-sum) |
@@ -124,4 +125,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
+## Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/KundanGuptaa/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/KundanGuptaa/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
