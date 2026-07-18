@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1572-matrix-diagonal-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/1572-matrix-diagonal-sum) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/KundanGuptaa/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/KundanGuptaa/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Matrix
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/KundanGuptaa/LeetCode/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/KundanGuptaa/LeetCode/tree/master/0069-sqrtx) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/KundanGuptaa/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/KundanGuptaa/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/KundanGuptaa/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -165,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/KundanGuptaa/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/KundanGuptaa/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/KundanGuptaa/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
