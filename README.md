@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0567-permutation-in-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0567-permutation-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3499-maximize-active-section-with-trade-i) |
 ## Linked List
 |  |
 | ------- |
@@ -193,4 +194,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+## Enumeration
+|  |
+| ------- |
+| [3499-maximize-active-section-with-trade-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3499-maximize-active-section-with-trade-i) |
 <!---LeetCode Topics End-->
