@@ -1,41 +1,52 @@
 class Solution {
     public List<Integer> remainingMethods(int n, int k, int[][] invocations) {
-        List<Integer>[] graph = new ArrayList[n];
-        for(int i=0;i<n;i++){
-            graph[i] = new ArrayList<>();
+        List<Integer>[] adj = new ArrayList[n];
+        for (int i = 0; i < n; i++) {
+            adj[i] = new ArrayList<>();
         }
-        for(int i=0;i<invocations.length;i++){
-            int src = invocations[i][0];
-            int dest = invocations[i][1];
-            graph[src].add(dest);
+        
+        for (int[] e : invocations) {
+            adj[e[0]].add(e[1]);
         }
-        boolean vis[] = new boolean[n];
-        getfaulty(graph,k,vis);
-        List<Integer> ans = new ArrayList<>();
-        for(int arr[]:invocations){
-            int u = arr[0];
-            int v = arr[1];
-            if(!vis[u] && vis[v]){
-                for(int i=0;i<n;i++){
-                    ans.add(i);
+        
+        boolean[] suspicious = new boolean[n];
+
+        Queue<Integer> q = new LinkedList<>();
+        q.offer(k);
+        suspicious[k] = true;
+        
+        while (!q.isEmpty()) {
+            int u = q.poll();
+            
+            for (int v : adj[u]) {
+                if (!suspicious[v]) {
+                    suspicious[v] = true;
+                    q.offer(v);
                 }
-                return ans;
             }
         }
-        for(int i=0;i<n;i++){
-            if(!vis[i]){
+        
+        for (int i = 0; i < n; i++) {
+            if (!suspicious[i]) {
+                for (int v : adj[i]) {
+                    if (suspicious[v]) {
+                        List<Integer> ans = new ArrayList<>();
+                        for (int j = 0; j < n; j++) {
+                            ans.add(j);
+                        }
+                        return ans;
+                    }
+                }
+            }
+        }
+        
+        List<Integer> ans = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            if (!suspicious[i]) {
                 ans.add(i);
             }
         }
+        
         return ans;
-    }
-    private void getfaulty(List<Integer>[] graph,int k, boolean vis[]){
-        vis[k] = true;
-        for(int i=0;i<graph[k].size();i++){
-            int src = graph[k].get(i);
-            if(!vis[src]){
-                getfaulty(graph,src,vis);
-            }
-        }
     }
 }
