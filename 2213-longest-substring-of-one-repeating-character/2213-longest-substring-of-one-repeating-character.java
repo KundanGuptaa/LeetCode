@@ -1,107 +1,85 @@
-import java.util.*;
-
 class Solution {
-    private TreeMap<Integer, Integer> counts = new TreeMap<>();
+    private static class SegmentTree {
+        private final int n;
+        private final int[] pre;
+        private final int[] suf;
+        private final int[] best;
+        private final char[] cs;
 
-    private void addLen(int len) {
-        if (len > 0) {
-            counts.put(len, counts.getOrDefault(len, 0) + 1);
+        public SegmentTree(String s) {
+            n = s.length();
+            pre = new int[n << 2];
+            suf = new int[n << 2];
+            best = new int[n << 2];
+            cs = s.toCharArray();
+
+            build(1, 0, n - 1);
         }
-    }
 
-    private void removeLen(int len) {
-        if (len > 0) {
-            int count = counts.get(len);
-            if (count == 1) {
-                counts.remove(len);
-            } else {
-                counts.put(len, count - 1);
+        private void build(int node, int l, int r) {
+            if (l == r) {
+                pre[node] = suf[node] = best[node] = 1;
+                return;
             }
+            int mid = (l + r) >>> 1;
+            build(node << 1, l, mid);
+            build(node << 1 | 1, mid + 1, r);
+            pushUp(node, l, r);
+        }
+
+        private void pushUp(int node, int l, int r) {
+            int left = node << 1;
+            int right = node << 1 | 1;
+            int mid = (l + r) >>> 1;
+            int lenL = mid - l + 1;
+            int lenR = r - mid;
+
+            pre[node] = pre[left];
+            suf[node] = suf[right];
+            best[node] = Math.max(best[left], best[right]);
+            if (cs[mid] == cs[mid + 1]) {
+                if (pre[left] == lenL) {
+                    pre[node] = lenL + pre[right];
+                }
+                if (suf[right] == lenR) {
+                    suf[node] = lenR + suf[left];
+                }
+                best[node] = Math.max(best[node], suf[left] + pre[right]);
+            }
+        }
+
+        public void update(int i) {
+            update(1, 0, n - 1, i);
+        }
+
+        private void update(int node, int l, int r, int i) {
+            if (l == r) {
+                return;
+            }
+            int mid = (l + r) >>> 1;
+            if (i <= mid) {
+                update(node << 1, l, mid, i);
+            } else {
+                update(node << 1 | 1, mid + 1, r, i);
+            }
+            pushUp(node, l, r);
+        }
+
+        public void updateChar(char c, int i) {
+            cs[i] = c;
         }
     }
 
     public int[] longestRepeating(String s, String queryCharacters, int[] queryIndices) {
-        int n = s.length();
         int k = queryIndices.length;
-        int[] result = new int[k];
-        char[] arr = s.toCharArray();
-
-        TreeMap<Integer, Integer> segments = new TreeMap<>();
-
-        int i = 0;
-        while (i < n) {
-            int j = i;
-            while (j < n && arr[j] == arr[i]) {
-                j++;
-            }
-            int len = j - i;
-            segments.put(i, len);
-            addLen(len);
-            i = j;
+        SegmentTree tree = new SegmentTree(s);
+        int[] ans = new int[k];
+        for (int i = 0; i < k; i++) {
+            int index = queryIndices[i];
+            tree.updateChar(queryCharacters.charAt(i), index);
+            tree.update(index);
+            ans[i] = tree.best[1];
         }
-
-        for (int q = 0; q < k; q++) {
-            int idx = queryIndices[q];
-            char c = queryCharacters.charAt(q);
-
-            if (arr[idx] == c) {
-                result[q] = counts.lastKey();
-                continue;
-            }
-
-            Map.Entry<Integer, Integer> it = segments.floorEntry(idx);
-            int start = it.getKey();
-            int len = it.getValue();
-            int end = start + len - 1;
-
-            segments.remove(start);
-            removeLen(len);
-
-            int leftLen = idx - start;
-            int rightLen = end - idx;
-
-            if (leftLen > 0) {
-                segments.put(start, leftLen);
-                addLen(leftLen);
-            }
-            if (rightLen > 0) {
-                segments.put(idx + 1, rightLen);
-                addLen(rightLen);
-            }
-
-            arr[idx] = c;
-
-            int newStart = idx;
-            int newLen = 1;
-
-            if (idx > 0) {
-                Map.Entry<Integer, Integer> leftIt = segments.floorEntry(idx - 1);
-                if (leftIt != null) {
-                    int lStart = leftIt.getKey();
-                    int lLen = leftIt.getValue();
-                    if (lStart + lLen - 1 == idx - 1 && arr[lStart] == c) {
-                        newStart = lStart;
-                        newLen += lLen;
-                        removeLen(lLen);
-                        segments.remove(lStart);
-                    }
-                }
-            }
-
-            Integer rightKey = idx + 1;
-            if (segments.containsKey(rightKey) && arr[rightKey] == c) {
-                int rLen = segments.get(rightKey);
-                newLen += rLen;
-                removeLen(rLen);
-                segments.remove(rightKey);
-            }
-
-            segments.put(newStart, newLen);
-            addLen(newLen);
-
-            result[q] = counts.lastKey();
-        }
-
-        return result;
+        return ans;
     }
 }
