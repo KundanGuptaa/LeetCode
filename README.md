@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-cinema-seat-allocation](https://github.com/KundanGuptaa/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/KundanGuptaa/LeetCode/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1563-stone-game-v](https://github.com/KundanGuptaa/LeetCode/tree/master/1563-stone-game-v) |
 | [1572-matrix-diagonal-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/KundanGuptaa/LeetCode/tree/master/2029-stone-game-ix) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/KundanGuptaa/LeetCode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/KundanGuptaa/LeetCode/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/KundanGuptaa/LeetCode/tree/master/1563-stone-game-v) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/KundanGuptaa/LeetCode/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/KundanGuptaa/LeetCode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/KundanGuptaa/LeetCode/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/KundanGuptaa/LeetCode/tree/master/1563-stone-game-v) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/KundanGuptaa/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Depth-First Search
 |  |
@@ -293,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/KundanGuptaa/LeetCode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/KundanGuptaa/LeetCode/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/KundanGuptaa/LeetCode/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/KundanGuptaa/LeetCode/tree/master/2029-stone-game-ix) |
 ## Minimax
 |  |
