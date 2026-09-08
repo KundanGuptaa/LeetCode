@@ -1,9 +1,8 @@
 class Solution {
     public int countCommas(int n) {
-        int commas = 0;
-        for (long threshold = 1000; threshold <= n; threshold *= 1000) {
-            commas += (n - threshold + 1);
+        if(n<1000){
+            return 0;
         }
-        return commas;
+        return n - 999;
     }
 }
