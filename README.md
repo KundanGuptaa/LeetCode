@@ -1,5 +1,5 @@
 # LeetCode
-A collection of LeetCode questions to ace the coding interview!
+A compilation of algorithmic exercises aimed at successful coding interview outcomes.
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
