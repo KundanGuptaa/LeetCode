@@ -151,6 +151,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/KundanGuptaa/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/KundanGuptaa/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/KundanGuptaa/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -163,6 +164,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/KundanGuptaa/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/KundanGuptaa/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/KundanGuptaa/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -181,6 +183,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/KundanGuptaa/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/KundanGuptaa/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/KundanGuptaa/LeetCode/tree/master/3310-remove-methods-from-project) |
 ## String Matching
 |  |
