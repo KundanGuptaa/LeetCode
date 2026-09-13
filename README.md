@@ -14,6 +14,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0084-largest-rectangle-in-histogram](https://github.com/KundanGuptaa/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0835-image-overlap](https://github.com/KundanGuptaa/LeetCode/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/KundanGuptaa/LeetCode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1140-stone-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1140-stone-game-ii) |
@@ -51,6 +52,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Matrix
 |  |
 | ------- |
+| [0835-image-overlap](https://github.com/KundanGuptaa/LeetCode/tree/master/0835-image-overlap) |
 | [1260-shift-2d-grid](https://github.com/KundanGuptaa/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1572-matrix-diagonal-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/KundanGuptaa/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
