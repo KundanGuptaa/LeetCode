@@ -107,6 +107,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [0002-add-two-numbers](https://github.com/KundanGuptaa/LeetCode/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/KundanGuptaa/LeetCode/tree/master/0069-sqrtx) |
+| [0836-rectangle-overlap](https://github.com/KundanGuptaa/LeetCode/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/KundanGuptaa/LeetCode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1140-stone-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1140-stone-game-ii) |
@@ -241,6 +242,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Geometry
 |  |
 | ------- |
+| [0836-rectangle-overlap](https://github.com/KundanGuptaa/LeetCode/tree/master/0836-rectangle-overlap) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 ## Sorting
 |  |
