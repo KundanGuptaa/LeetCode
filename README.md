@@ -44,6 +44,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3524-find-x-value-of-array-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3525-find-x-value-of-array-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/KundanGuptaa/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/KundanGuptaa/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/3731-find-missing-elements) |
@@ -71,6 +72,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/KundanGuptaa/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -162,6 +164,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0567-permutation-in-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0567-permutation-in-string) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/KundanGuptaa/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/KundanGuptaa/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/KundanGuptaa/LeetCode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/KundanGuptaa/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Tree
@@ -202,6 +205,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/KundanGuptaa/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/KundanGuptaa/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3524-find-x-value-of-array-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3524-find-x-value-of-array-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -276,6 +280,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/KundanGuptaa/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/KundanGuptaa/LeetCode/tree/master/3536-maximum-product-of-two-digits) |
 | [3731-find-missing-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/KundanGuptaa/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -358,6 +363,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/KundanGuptaa/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/KundanGuptaa/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Enumeration
 |  |
@@ -379,6 +385,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [1386-cinema-seat-allocation](https://github.com/KundanGuptaa/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/KundanGuptaa/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3513-number-of-unique-xor-triplets-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/KundanGuptaa/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Counting Sort
 |  |
@@ -416,6 +423,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [3310-remove-methods-from-project](https://github.com/KundanGuptaa/LeetCode/tree/master/3310-remove-methods-from-project) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Backtracking
 |  |
 | ------- |
