@@ -92,6 +92,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0567-permutation-in-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0567-permutation-in-string) |
 | [0940-distinct-subsequences-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/KundanGuptaa/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1927-sum-game](https://github.com/KundanGuptaa/LeetCode/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/KundanGuptaa/LeetCode/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -182,6 +183,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/KundanGuptaa/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [3310-remove-methods-from-project](https://github.com/KundanGuptaa/LeetCode/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/KundanGuptaa/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Binary Tree
@@ -226,6 +228,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0567-permutation-in-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0567-permutation-in-string) |
+| [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1386-cinema-seat-allocation](https://github.com/KundanGuptaa/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/KundanGuptaa/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -279,6 +282,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
+| [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/KundanGuptaa/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -301,6 +305,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0084-largest-rectangle-in-histogram](https://github.com/KundanGuptaa/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0155-min-stack](https://github.com/KundanGuptaa/LeetCode/tree/master/0155-min-stack) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -434,6 +439,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Backtracking
 |  |
 | ------- |
+| [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Nim Game
 |  |
