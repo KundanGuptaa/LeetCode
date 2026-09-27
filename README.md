@@ -94,6 +94,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0940-distinct-subsequences-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/KundanGuptaa/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/KundanGuptaa/LeetCode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1927-sum-game](https://github.com/KundanGuptaa/LeetCode/tree/master/1927-sum-game) |
@@ -309,6 +310,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0155-min-stack](https://github.com/KundanGuptaa/LeetCode/tree/master/0155-min-stack) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -462,4 +464,8 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
