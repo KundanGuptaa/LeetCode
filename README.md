@@ -90,6 +90,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [0006-zigzag-conversion](https://github.com/KundanGuptaa/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0014-longest-common-prefix](https://github.com/KundanGuptaa/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0115-distinct-subsequences](https://github.com/KundanGuptaa/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0567-permutation-in-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0567-permutation-in-string) |
@@ -311,6 +312,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/KundanGuptaa/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0155-min-stack](https://github.com/KundanGuptaa/LeetCode/tree/master/0155-min-stack) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -474,6 +476,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Bracket Sequences
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0020-valid-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/KundanGuptaa/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
