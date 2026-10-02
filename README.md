@@ -91,6 +91,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0006-zigzag-conversion](https://github.com/KundanGuptaa/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0014-longest-common-prefix](https://github.com/KundanGuptaa/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0115-distinct-subsequences](https://github.com/KundanGuptaa/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0567-permutation-in-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0567-permutation-in-string) |
@@ -204,6 +205,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0022-generate-parentheses) |
 | [0115-distinct-subsequences](https://github.com/KundanGuptaa/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0877-stone-game](https://github.com/KundanGuptaa/LeetCode/tree/master/0877-stone-game) |
@@ -453,6 +455,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0022-generate-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Nim Game
@@ -477,6 +480,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0022-generate-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/KundanGuptaa/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
