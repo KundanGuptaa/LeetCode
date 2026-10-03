@@ -402,6 +402,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Enumeration
 |  |
 | ------- |
+| [1291-sequential-digits](https://github.com/KundanGuptaa/LeetCode/tree/master/1291-sequential-digits) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/KundanGuptaa/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3499-maximize-active-section-with-trade-i) |
