@@ -11,6 +11,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0026-remove-duplicates-from-sorted-array](https://github.com/KundanGuptaa/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/KundanGuptaa/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/KundanGuptaa/LeetCode/tree/master/0035-search-insert-position) |
+| [0045-jump-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/0045-jump-game-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/KundanGuptaa/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -213,6 +214,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [0022-generate-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0032-longest-valid-parentheses) |
+| [0045-jump-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/0045-jump-game-ii) |
 | [0115-distinct-subsequences](https://github.com/KundanGuptaa/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0678-valid-parenthesis-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0678-valid-parenthesis-string) |
@@ -394,6 +396,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/0045-jump-game-ii) |
 | [0678-valid-parenthesis-string](https://github.com/KundanGuptaa/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1386-cinema-seat-allocation](https://github.com/KundanGuptaa/LeetCode/tree/master/1386-cinema-seat-allocation) |
