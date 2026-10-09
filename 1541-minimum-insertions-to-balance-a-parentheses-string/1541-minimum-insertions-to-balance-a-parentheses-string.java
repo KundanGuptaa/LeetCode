@@ -1,23 +1,29 @@
 class Solution {
     public int minInsertions(String s) {
-        int insertions = 0;
-        int neededRight = 0;
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            if (ch == '(') {
-                if (neededRight % 2 != 0) {
-                    insertions++;
-                    neededRight--;
-                }
-                neededRight += 2;
+        int openNeeded = 0;
+        int openCount = 0;
+        int i = 0;
+        int n = s.length();
+        char[] arr = s.toCharArray();        
+        while (i < n) {
+            if (arr[i] == '(') {
+                openCount++;
+                i++;
             } else {
-                neededRight--;
-                if (neededRight < 0) {
-                    insertions++;
-                    neededRight += 2;
+                if (i + 1 < n && arr[i + 1] == ')') {
+                    i += 2; 
+                } else {
+                    openNeeded++; 
+                    i += 1;
+                }
+                if (openCount > 0) {
+                    openCount--;
+                } else {
+                    openNeeded++;
                 }
             }
         }
-        return insertions + neededRight;
+        openNeeded += openCount * 2;
+        return openNeeded;
     }
 }
