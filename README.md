@@ -21,6 +21,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0877-stone-game](https://github.com/KundanGuptaa/LeetCode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1140-stone-game-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1140-stone-game-ii) |
+| [1254-number-of-closed-islands](https://github.com/KundanGuptaa/LeetCode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/KundanGuptaa/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1386-cinema-seat-allocation](https://github.com/KundanGuptaa/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/KundanGuptaa/LeetCode/tree/master/1406-stone-game-iii) |
@@ -77,6 +78,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 |  |
 | ------- |
 | [0835-image-overlap](https://github.com/KundanGuptaa/LeetCode/tree/master/0835-image-overlap) |
+| [1254-number-of-closed-islands](https://github.com/KundanGuptaa/LeetCode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/KundanGuptaa/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1572-matrix-diagonal-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KundanGuptaa/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -229,6 +231,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/KundanGuptaa/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0301-remove-invalid-parentheses](https://github.com/KundanGuptaa/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
+| [1254-number-of-closed-islands](https://github.com/KundanGuptaa/LeetCode/tree/master/1254-number-of-closed-islands) |
 | [2685-count-the-number-of-complete-components](https://github.com/KundanGuptaa/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/KundanGuptaa/LeetCode/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/KundanGuptaa/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -272,6 +275,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/KundanGuptaa/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1254-number-of-closed-islands](https://github.com/KundanGuptaa/LeetCode/tree/master/1254-number-of-closed-islands) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/KundanGuptaa/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2685-count-the-number-of-complete-components](https://github.com/KundanGuptaa/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/KundanGuptaa/LeetCode/tree/master/3310-remove-methods-from-project) |
@@ -558,6 +562,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 ## Union-Find
 |  |
 | ------- |
+| [1254-number-of-closed-islands](https://github.com/KundanGuptaa/LeetCode/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/KundanGuptaa/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2685-count-the-number-of-complete-components](https://github.com/KundanGuptaa/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
