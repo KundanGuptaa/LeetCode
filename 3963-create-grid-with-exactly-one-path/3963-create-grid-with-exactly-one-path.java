@@ -1,20 +1,22 @@
 class Solution {
     public String[] createGrid(int m, int n) {
-        char[][] grid=new char[m][n];
-        for(int i=0;i<m;i++){
-            Arrays.fill(grid[i],'#');
+        var res = new String[m];
+        var sb = new StringBuilder();
+        for (var i = 0; i < n; i++) {
+            sb.append(".");
         }
-        for(int r=0;r<m;r++){
-            grid[r][0]='.';
-        }
-        for(int c=0;c<n;c++){
-            grid[m-1][c]='.';
-        }
+        res[0] = sb.toString();
 
-        String[] result=new String[m];
-        for(int i=0;i<m;i++){
-            result[i]=new String(grid[i]);
+        sb = new StringBuilder();
+        for (var i = 1; i < n; i++) {
+            sb.append("#");
         }
-        return result;
+        sb.append(".");
+        
+        for(var i = 1; i < m; i++) {
+            res[i] = sb.toString();
+        }
+        
+        return res;
     }
 }
