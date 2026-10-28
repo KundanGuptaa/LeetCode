@@ -1,32 +1,28 @@
 class Solution {
+    private int ans;
+    private boolean[][][] memo;
+
     public int minCost(int[][] grid) {
-        int m = grid.length;
-        int n = grid[0].length;
-        final int MAX_XOR = 1024;
-        BitSet[][] dp = new BitSet[m][n];
-        for (int r = 0; r < m; r++) {
-            for (int c = 0; c < n; c++) {
-                dp[r][c] = new BitSet(MAX_XOR);
-            }
+        int startVal = grid[0][0];
+        ans = Integer.MAX_VALUE;
+        memo = new boolean[grid.length][grid[0].length][1024];
+        dfs(grid, 0, 0, 0, grid.length, grid[0].length);
+        return ans;
+    }
+    private void dfs(int[][] grid, int i, int j, int xor, int m, int n) {
+        xor ^= grid[i][j];
+        if (ans == 0)
+            return;
+        if (memo[i][j][xor])
+            return;
+        memo[i][j][xor] = true;
+        if (i == m - 1 && j == n - 1) {
+            ans = Math.min(ans, xor);
+            return;
         }
-        dp[0][0].set(grid[0][0]);
-        for (int r = 0; r < m; r++) {
-            for (int c = 0; c < n; c++) {
-                BitSet current = dp[r][c];
-                if (r + 1 < m) {
-                    int nextVal = grid[r + 1][c];
-                    for (int v = current.nextSetBit(0); v >= 0; v = current.nextSetBit(v + 1)) {
-                        dp[r + 1][c].set(v ^ nextVal);
-                    }
-                }
-                if (c + 1 < n) {
-                    int nextVal = grid[r][c + 1];
-                    for (int v = current.nextSetBit(0); v >= 0; v = current.nextSetBit(v + 1)) {
-                        dp[r][c + 1].set(v ^ nextVal);
-                    }
-                }
-            }
-        }
-        return dp[m - 1][n - 1].nextSetBit(0);
+        if (i + 1 < m)
+            dfs(grid, i + 1, j, xor, m, n);
+        if (j + 1 < n)
+            dfs(grid, i, j + 1, xor, m, n);
     }
 }
