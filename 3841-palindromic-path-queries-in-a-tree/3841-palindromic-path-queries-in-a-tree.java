@@ -1,130 +1,186 @@
 import java.util.*;
 
 class Solution {
-    private List<Integer>[] adj;
-    private int[][] up;
-    private int[] depth;
-    private int[] tin;
-    private int[] tout;
-    private int timer;
-    private int LOG;
-    private int[] bit;
 
-    public List<Boolean> palindromePath(int n, int[][] edges, String s, String[] queries) {
-        this.LOG = 32 - Integer.numberOfLeadingZeros(n);
-        this.adj = new ArrayList[n];
-        for (int i = 0; i < n; i++) {
-            adj[i] = new ArrayList<>();
-        }
+    int[] head, to, next;
+    int edgeCount;
+
+    int[] parent, depth, size, heavy;
+    int[] chainHead, pos;
+    int currentPos;
+
+    int[] segTree;
+
+    public List<Boolean> palindromePath(int n, int[][] edges,
+            String s, String[] queries) {
+        head = new int[n];
+        Arrays.fill(head, -1);
+        to = new int[2 * (n - 1)];
+        next = new int[2 * (n - 1)];
         for (int[] e : edges) {
-            adj[e[0]].add(e[1]);
-            adj[e[1]].add(e[0]);
+            addEdge(e[0], e[1]);
+            addEdge(e[1], e[0]);
         }
-
-        up = new int[n][LOG];
+        parent = new int[n];
         depth = new int[n];
-        tin = new int[n];
-        tout = new int[n];
-        timer = 0;
-
-        dfs(0, 0, 0);
-
-        // Fenwick tree for subtree range XOR updates and point queries
-        bit = new int[n + 2];
-        char[] currChar = s.toCharArray();
-
-        // Apply initial characters to subtree paths
+        size = new int[n];
+        heavy = new int[n];
+        Arrays.fill(parent, -1);
+        Arrays.fill(heavy, -1);
+        dfs(0, -1);
+        chainHead = new int[n];
+        pos = new int[n];
+        currentPos = 0;
+        decompose(0, 0);
+        int[] values = new int[n];
         for (int i = 0; i < n; i++) {
-            int mask = 1 << (currChar[i] - 'a');
-            rangeUpdate(tin[i], tout[i], mask);
+            values[pos[i]] = 1 << (s.charAt(i) - 'a');
         }
-
-        List<Boolean> ans = new ArrayList<>();
-
-        for (String q : queries) {
-            String[] parts = q.split(" ");
+        segTree = new int[4 * n];
+        build(1, 0, n - 1, values);
+        char[] chars = s.toCharArray();
+        List<Boolean> answer = new ArrayList<>();
+        for (String query : queries) {
+            String[] parts = query.split(" ");
             if (parts[0].equals("update")) {
-                int u = Integer.parseInt(parts[1]);
+                int node = Integer.parseInt(parts[1]);
                 char newChar = parts[2].charAt(0);
-                if (currChar[u] != newChar) {
-                    int delta = (1 << (newChar - 'a')) ^ (1 << (currChar[u] - 'a'));
-                    rangeUpdate(tin[u], tout[u], delta);
-                    currChar[u] = newChar;
-                }
+                chars[node] = newChar;
+                int mask = 1 << (newChar - 'a');
+                update(
+                        1,
+                        0,
+                        n - 1,
+                        pos[node],
+                        mask);
             } else {
                 int u = Integer.parseInt(parts[1]);
                 int v = Integer.parseInt(parts[2]);
-                int lcaNode = getLca(u, v);
+                int mask = queryPath(u, v);
+                boolean possible = mask == 0 || (mask & (mask - 1)) == 0;
 
-                int pu = pointQuery(tin[u]);
-                int pv = pointQuery(tin[v]);
-                int lcaMask = 1 << (currChar[lcaNode] - 'a');
-
-                int pathXor = pu ^ pv ^ lcaMask;
-                ans.add(Integer.bitCount(pathXor) <= 1);
+                answer.add(possible);
             }
         }
-
-        return ans;
+        return answer;
     }
 
-    private void dfs(int u, int p, int d) {
-        tin[u] = ++timer;
-        depth[u] = d;
-        up[u][0] = p;
-        for (int i = 1; i < LOG; i++) {
-            up[u][i] = up[up[u][i - 1]][i - 1];
-        }
+    void addEdge(int u, int v) {
+        to[edgeCount] = v;
+        next[edgeCount] = head[u];
+        head[u] = edgeCount++;
+    }
 
-        for (int v : adj[u]) {
-            if (v != p) {
-                dfs(v, u, d + 1);
+    void dfs(int node, int par) {
+        parent[node] = par;
+        size[node] = 1;
+        int maxSize = 0;
+        for (int e = head[node]; e != -1; e = next[e]) {
+            int child = to[e];
+            if (child == par)
+                continue;
+            depth[child] = depth[node] + 1;
+            dfs(child, node);
+            size[node] += size[child];
+            if (size[child] > maxSize) {
+                maxSize = size[child];
+                heavy[node] = child;
             }
         }
-        tout[u] = timer;
     }
 
-    private int getLca(int u, int v) {
-        if (depth[u] < depth[v]) {
+    void decompose(int node, int chain) {
+        chainHead[node] = chain;
+        pos[node] = currentPos++;
+        if (heavy[node] != -1) {
+            decompose(heavy[node], chain);
+        }
+        for (int e = head[node]; e != -1; e = next[e]) {
+
+            int child = to[e];
+
+            if (child == parent[node] || child == heavy[node])
+                continue;
+
+            decompose(child, child);
+        }
+    }
+
+    void build(int node, int left, int right, int[] arr) {
+
+        if (left == right) {
+            segTree[node] = arr[left];
+            return;
+        }
+        int mid = (left + right) / 2;
+        build(node * 2, left, mid, arr);
+        build(node * 2 + 1, mid + 1, right, arr);
+        segTree[node] = segTree[node * 2] ^
+                segTree[node * 2 + 1];
+    }
+
+    void update(int node, int left, int right,
+            int index, int value) {
+
+        if (left == right) {
+            segTree[node] = value;
+            return;
+        }
+        int mid = (left + right) / 2;
+
+        if (index <= mid) {
+            update(node * 2, left, mid, index, value);
+        } else {
+            update(node * 2 + 1, mid + 1, right, index, value);
+        }
+        segTree[node] = segTree[node * 2] ^
+                segTree[node * 2 + 1];
+    }
+
+    int query(int node, int left, int right,
+            int ql, int qr) {
+
+        if (qr < left || right < ql)
+            return 0;
+
+        if (ql <= left && right <= qr)
+            return segTree[node];
+
+        int mid = (left + right) / 2;
+
+        return query(node * 2, left, mid, ql, qr)
+                ^ query(node * 2 + 1, mid + 1, right, ql, qr);
+    }
+
+    int queryPath(int u, int v) {
+        int result = 0;
+        while (chainHead[u] != chainHead[v]) {
+            if (depth[chainHead[u]] < depth[chainHead[v]]) {
+
+                int temp = u;
+                u = v;
+                v = temp;
+            }
+            result ^= query(
+                    1,
+                    0,
+                    pos.length - 1,
+                    pos[chainHead[u]],
+                    pos[u]);
+
+            u = parent[chainHead[u]];
+        }
+        if (depth[u] > depth[v]) {
             int temp = u;
             u = v;
             v = temp;
         }
-
-        for (int i = LOG - 1; i >= 0; i--) {
-            if (depth[u] - (1 << i) >= depth[v]) {
-                u = up[u][i];
-            }
-        }
-
-        if (u == v) return u;
-
-        for (int i = LOG - 1; i >= 0; i--) {
-            if (up[u][i] != up[v][i]) {
-                u = up[u][i];
-                v = up[v][i];
-            }
-        }
-
-        return up[u][0];
-    }
-
-    private void bitXor(int idx, int val) {
-        for (; idx < bit.length; idx += idx & -idx) {
-            bit[idx] ^= val;
-        }
-    }
-
-    private void rangeUpdate(int l, int r, int val) {
-        bitXor(l, val);
-        bitXor(r + 1, val);
-    }
-
-    private int pointQuery(int idx) {
-        int sum = 0;
-        for (; idx > 0; idx -= idx & -idx) {
-            sum ^= bit[idx];
-        }
-        return sum;
+        result ^= query(
+                1,
+                0,
+                pos.length - 1,
+                pos[u],
+                pos[v]);
+        return result;
     }
 }
