@@ -18,6 +18,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0239-sliding-window-maximum](https://github.com/KundanGuptaa/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0835-image-overlap](https://github.com/KundanGuptaa/LeetCode/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/KundanGuptaa/LeetCode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
@@ -172,6 +173,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0002-add-two-numbers](https://github.com/KundanGuptaa/LeetCode/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/KundanGuptaa/LeetCode/tree/master/0069-sqrtx) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0836-rectangle-overlap](https://github.com/KundanGuptaa/LeetCode/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/KundanGuptaa/LeetCode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
@@ -368,6 +370,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/KundanGuptaa/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/KundanGuptaa/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1096-brace-expansion-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
