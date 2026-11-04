@@ -57,6 +57,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3471-find-the-largest-almost-missing-integer](https://github.com/KundanGuptaa/LeetCode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/KundanGuptaa/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/KundanGuptaa/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3524-find-x-value-of-array-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3525-find-x-value-of-array-ii) |
@@ -196,6 +197,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/KundanGuptaa/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/KundanGuptaa/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3524-find-x-value-of-array-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3524-find-x-value-of-array-i) |
@@ -286,6 +288,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/KundanGuptaa/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/KundanGuptaa/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/KundanGuptaa/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/KundanGuptaa/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3524-find-x-value-of-array-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3524-find-x-value-of-array-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3665-twisted-mirror-path-count](https://github.com/KundanGuptaa/LeetCode/tree/master/3665-twisted-mirror-path-count) |
@@ -326,6 +329,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [3312-sorted-gcd-pair-queries](https://github.com/KundanGuptaa/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/KundanGuptaa/LeetCode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/KundanGuptaa/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/KundanGuptaa/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/KundanGuptaa/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/KundanGuptaa/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/KundanGuptaa/LeetCode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
@@ -343,6 +347,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/KundanGuptaa/LeetCode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/KundanGuptaa/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/KundanGuptaa/LeetCode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/KundanGuptaa/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## Queue
 |  |
 | ------- |
@@ -356,6 +361,7 @@ A compilation of algorithmic exercises aimed at successful coding interview outc
 | [0973-k-closest-points-to-origin](https://github.com/KundanGuptaa/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/KundanGuptaa/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/KundanGuptaa/LeetCode/tree/master/2333-minimum-sum-of-squared-difference) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/KundanGuptaa/LeetCode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/KundanGuptaa/LeetCode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Monotonic Queue
 |  |
